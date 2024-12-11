@@ -43,20 +43,20 @@ How to run the code:
 
 Step 1: Creat virtual environment
 
-    > python3 -m venv [name_of_your_environment]
+    python3 -m venv [name_of_your_environment]
 
 Step 2: Enter in environment
 
-    > source [name_of_your_environement]/bin/activate
+    source [name_of_your_environement]/bin/activate
 
 Step 3: Install all needed lybrarys 
 
-    > pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Step 4: Run the Programm 
  
-    > python3 main.py
+    python3 main.py
 
 Step 5: Deactivate environement 
 
-    > deactivate
+    deactivate
