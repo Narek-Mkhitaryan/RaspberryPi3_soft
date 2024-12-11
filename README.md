@@ -29,15 +29,15 @@ Datasheet: LTR390 Datasheet
 
 # Which file for what:
 
-** bme280Sensor.py  --> ** code in python which read information from sensor bme280
-** ltr390Sensor.py --> ** Code in python which read infotmation from sensor ltr390
-** main.py -->**  main file wich run the porgrame and return results
+*** bme280Sensor.py  --> *** code in python which read information from sensor bme280
+*** ltr390Sensor.py --> *** Code in python which read infotmation from sensor ltr390
+*** main.py -->***  main file wich run the porgrame and return results
 
-** reuarement.tet --> ** .txt file wich contain all needed librarys
+*** reuarement.tet --> *** .txt file wich contain all needed librarys
 
 
 ********************************************************************************
-
+[!TIP]
 How to run the code:
 
 
