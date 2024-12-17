@@ -12,7 +12,7 @@ Pressure: ±1 hPa
 
 Low power consumption
 I2C & SPI interface
-Datasheet: BME280 Datasheet
+
 *******************************************************************************
 ## LTR390
 The LTR390 is a precision UV light sensor from LITE-ON, designed to measure ultraviolet (UV) light intensity in the 200–400nm range. This sensor is especially useful in applications like UV index monitoring, outdoor environmental monitoring, and wearable health devices. The LTR390 is capable of high-speed measurements with low power consumption, making it ideal for portable devices.
@@ -23,7 +23,16 @@ Measures UV light intensity (200–400nm)
 High accuracy and low power consumption
 I2C interface for easy integration
 Wide dynamic range
-Datasheet: LTR390 Datasheet
+
+*******************************************************************************
+### MP2.5 5003 Sensor
+The MP2.5 5003 is a reliable particulate matter sensor designed for detecting PM2.5 particles in the air using laser scattering technology. It is compact, energy-efficient, and ideal for air quality monitoring, IoT systems, and environmental projects. The sensor provides accurate, real-time data and supports easy integration into embedded systems through standard communication protocols.
+
+### Key Features:
+PM2.5 Detection: High accuracy and real-time monitoring
+Compact Design: Lightweight and easy to integrate
+Low Power Consumption: Suitable for IoT and portable devices
+Communication Interface: UART and other standard protocols
 
 ********************************************************************************
 
@@ -32,6 +41,8 @@ Datasheet: LTR390 Datasheet
 ***bme280Sensor.py*** code in python which read information from sensor bme280
 
 ***ltr390Sensor.py*** Code in python which read infotmation from sensor ltr390
+
+***PMSensor.py*** Code in python which read infotmation from sensor MP2.5
 
 ***main.py***  main file wich run the porgrame and return results
 
